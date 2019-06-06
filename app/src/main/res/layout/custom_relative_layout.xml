@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/Custom_Layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/fondo">
+
+    <TextView
+        android:layout_marginTop="-8dp"
+        android:id="@+id/custom_id"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:padding="12dp"
+        android:text="Id : "
+        android:textColor="#000"
+        android:textSize="15dp"/>
+
+    <ImageView
+        android:id="@+id/btn_visto"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/check" />
+
+    <TextView
+        android:id="@+id/custom_title"
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:padding="2dp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:background="@drawable/fondo"/>
+
+    <TextView
+        android:layout_marginTop="79dp"
+        android:gravity="center"
+        android:id="@+id/custom_body"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:text="Cuerpo : "
+        android:textColor="#000"
+        android:textSize="11dp"
+        android:background="@drawable/fondo"
+        />
+
+    <ImageView
+        android:id="@+id/btn_fav"
+        android:layout_marginTop="260dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/favorite" />
+
+
+</RelativeLayout>
